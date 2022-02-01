@@ -1,0 +1,9 @@
+
+
+.hoveringCard {
+    background-color: var(--bg-secondary);
+    border-radius: 1rem;
+    box-shadow: var(--item-shadow);
+    padding: 1rem;
+    color: inherit;
+}

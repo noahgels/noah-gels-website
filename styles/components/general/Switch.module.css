@@ -1,0 +1,29 @@
+
+
+.container {
+    height: 2rem;
+    width: 3.2rem;
+    border-radius: 1rem;
+    background-color: var(--bg-tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.thumb {
+    background-color: var(--color);
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: .9rem;
+    transform: translateX(-0.6rem);
+    transition: var(--transition);
+}
+
+.active {
+    background-color: var(--green);
+}
+
+.activeThumb {
+    transform: translateX(0.6rem);
+}

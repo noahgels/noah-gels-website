@@ -3,14 +3,96 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--color);
+  overflow-x: hidden;
+}
+
+:root {
+  --bg-primary: #111112;
+  --bg-secondary: #1d1d1f;
+  --bg-tertiary: #171717;
+  --hovered: #161616;
+  --transition: 300ms ease;
+  --nav-bg: var(--bg-secondary);
+  --nav-hovered: var(--hovered);
+  --nav-width: 300px;
+  --color: #efefef;
+  --secondary-color: #aaa;
+  --spinner-scale: 0.5;
+  --action: #0378c9;
+  --secondary-action: #333;
+  --nav-shadow: 0 0 10px 10px #0003;
+  --item-shadow: 0 5px 5px 5px #0003;
+  --border-color: #333;
+  --red: #ff2211;
+  --h-border: 2px dashed var(--nav-bg);
+  --text-color: #b2bebf;
+  --warn: #c42323;
+  --green: #23c423
 }
 
 a {
-  color: inherit;
+  color: var(--action);
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+button:focus {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  color: var(--color)
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.cardButton {
+  background-color: var(--bg-secondary);
+  border-radius: 5px;
+  box-shadow: var(--item-shadow);
+  padding: 10px;
+  font-size: 14px;
+}
+
+.card {
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    width: 900px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  body {
+    width: 200px;
+    overflow: scroll;
+  }
 }
