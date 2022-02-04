@@ -14,26 +14,26 @@
 }
 
 .you {
-    font-size: 8rem;
+    font-size: 12vh;
     animation: moveToCenterFromRight 300ms ease forwards;
     animation-delay: 0ms;
 }
 
 .need {
-    font-size: 8rem;
+    font-size: 12vh;
     animation: moveToCenterFromLeft 300ms ease forwards;
     animation-delay: 500ms;
 }
 
 .a {
-    font-size: 8rem;
+    font-size: 12vh;
     padding: 1rem;
     animation: moveToCenterFromRight 456ms ease forwards;
     animation-delay: 750ms;
 }
 
 .website {
-    font-size: 8rem;
+    font-size: 12vh;
     font-weight: bold;
     letter-spacing: 0.1ch;
     animation: moveToCenterFromLeft 1000ms cubic-bezier(.07,1.05,0,1) forwards;
@@ -44,7 +44,7 @@
 }
 
 .mark {
-    font-size: 100px;
+    font-size: 12vh;
 }
 
 .qM {
@@ -97,7 +97,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
     .you {
         font-size: 60px;
     }

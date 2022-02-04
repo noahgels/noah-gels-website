@@ -1,9 +1,13 @@
 import styles from '../styles/Imprint.module.css';
 import Footer from "../components/partials/footer/Footer";
+import Head from "next/head";
 
 export default function Imprint() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Impressum - Noah Gels</title>
+      </Head>
       <main>
         <h1>Impressum</h1>
 
