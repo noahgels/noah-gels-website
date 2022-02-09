@@ -11,6 +11,7 @@ export default function Request() {
 
   const [sent, setSent] = useState(false);
   const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
   const [content, setContent] = useState('');
   const [displayHint, setDisplayHint] = useState(false);
 
@@ -19,7 +20,7 @@ export default function Request() {
       setDisplayHint(true);
       return;
     }
-    addRequest(email, content);
+    addRequest(name || 'Unbekannt', email, content);
     setSent(true);
   }
 
@@ -34,17 +35,29 @@ export default function Request() {
           {sent ? <p className={styles.success}>Vielen Dank für deine Anfrage</p> :
             <>
               <input
-              type="text"
-              placeholder="Email"
-              name="email"
-              className={styles.input}
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-              style={{
-                marginBottom: '0.7rem',
-              }}
-            />
+                type="text"
+                placeholder="Name (optional)"
+                name="name"
+                className={styles.input}
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                style={{
+                  marginBottom: '0.7rem',
+                }}
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                name="email"
+                className={styles.input}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                style={{
+                  marginBottom: '0.7rem',
+                }}
+              />
               <textarea
                 placeholder="Wie kann ich dir weiterhelfen"
                 name="content"

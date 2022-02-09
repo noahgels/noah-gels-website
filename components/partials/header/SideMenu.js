@@ -48,6 +48,11 @@ export default function SideMenu() {
             />
           </svg>
         </button>
+        <img
+          src={'/images/clean-logo.png'}
+          alt={'Noah Gels Logo'}
+          className={styles.img}
+        />
       </div>
     </nav>
   )

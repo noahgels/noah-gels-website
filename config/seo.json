@@ -1,7 +1,7 @@
 {
   "title": "Noah Gels",
-  "description": "",
-  "image": "/images/icons/logo-wide.png",
+  "description": "Eine normale Website ist dir nicht genug? Du möchtest schneller als alle anderen sein? Hier bekommst du, was du brauchst!",
+  "image": "/images/icons/logo.png",
   "themeColor": "#1d1d1f",
   "iconDirectory": "/images/icons",
   "maxImagePreview": "standard"

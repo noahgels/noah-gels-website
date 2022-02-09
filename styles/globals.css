@@ -21,7 +21,7 @@ body {
   --color: #efefef;
   --secondary-color: #aaa;
   --spinner-scale: 0.5;
-  --action: #0378c9;
+  --action: hsl(201,100%,50%);
   --secondary-action: #333;
   --nav-shadow: 0 0 10px 10px #0003;
   --item-shadow: 0 5px 5px 5px #0003;
@@ -40,6 +40,12 @@ a {
 
 * {
   box-sizing: border-box;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 button {

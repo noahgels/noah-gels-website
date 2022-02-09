@@ -35,7 +35,7 @@ export default function Home() {
         </section>
         <section className={styles.bigSize}>
           <h2>
-            Lass uns das richtige für dich finden
+            Lass uns das Richtige für dich finden
           </h2>
           <p className={styles.paragraph}>Eine persönliche Website, einen Online Shop oder auch eine coole App um Kunden auf dem laufenden
             zu halten. Geht nicht gibt{"'"}s nicht.</p>
