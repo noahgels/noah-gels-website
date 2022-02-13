@@ -27,11 +27,11 @@ export default function Request() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Anfrage - Noah Gels</title>
+        <title>Anfragen - Noah Gels</title>
       </Head>
       <main className={styles.main}>
         <HoveringCard className={styles.card}>
-          <h1 className={styles.title}>Anfrage</h1>
+          <h1 className={styles.title}>Anfragen</h1>
           {sent ? <p className={styles.success}>Vielen Dank für deine Anfrage</p> :
             <>
               <input

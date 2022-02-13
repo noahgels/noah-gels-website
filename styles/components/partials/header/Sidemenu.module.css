@@ -36,7 +36,6 @@
     background-color: var(--bg-secondary);
     transition: var(--transition);
     padding-top: 60px;
-    box-shadow: var(--nav-shadow);
     overflow: scroll;
     z-index: 19;
 }
@@ -47,6 +46,7 @@
 
 .menuShown {
     left: 0;
+    box-shadow: var(--nav-shadow);
 }
 
 .title {

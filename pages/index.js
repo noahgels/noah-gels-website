@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Noah Gels</title>
+        <title>Websites und Apps - Noah Gels</title>
       </Head>
       <header className={styles.header}>
         <YouNeedAWebsite/>
