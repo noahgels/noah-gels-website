@@ -35,7 +35,7 @@ export default function Home() {
         </section>
         <section className={styles.bigSize}>
           <h2>
-            Lass uns das Richtige für dich finden
+            Lass uns das Richtige für Sie finden
           </h2>
           <p className={styles.paragraph}>Eine persönliche Website, einen Online Shop oder auch eine coole App um Kunden auf dem laufenden
             zu halten. Geht nicht gibt{"'"}s nicht.</p>
@@ -43,6 +43,24 @@ export default function Home() {
             <a>
               <ActionButton>
                 Kontakt
+              </ActionButton>
+            </a>
+          </Link>
+        </section>
+        <section className={styles.bigSize}>
+          <h2>
+            Wer bin ich?
+          </h2>
+          <p className={styles.paragraph}>Hi, ich bin Noah und komme aus Lingen (Ems). Seit ich 13 bin programmiere ich
+            Mobile Apps und Websites. Etwa genau so lange benutze ich das Internet und habe eines feststellen können -
+            Sehr viele Websites sind veraltet, unübersichtlich oder langsam. Kann man nicht eine Website schaffen, so
+            schnell wie eine App und so eindeutig wie ein Flyer? Ja das kann man! Mein Ziel ist es, das Internet durch
+            solche Websites zu einem übersichtlicheren Ort für jeden zu machen.
+          </p>
+          <Link href={'/about'}>
+            <a>
+              <ActionButton>
+                Über mich
               </ActionButton>
             </a>
           </Link>

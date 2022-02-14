@@ -14,8 +14,6 @@ export default function CookieWindow(props) {
   const [page, setPage] = useState(0);
   const [analyticsCookie, setAnalyticsCookie] = useState(false);
 
-  console.log(page);
-
   const router = useRouter();
 
   const escape = () => {

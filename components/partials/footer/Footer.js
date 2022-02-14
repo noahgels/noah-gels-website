@@ -9,7 +9,9 @@ export default function Footer() {
     <footer className={styles.container}>
       <hr className={styles.hr}/>
       <div className={styles.mainContent}>
-        Copyright © 2022 Noah Gels
+        <div className={styles.line}>
+          Copyright © 2022 Noah Gels <img src={'/images/clean-logo.png'} className={styles.logo}/>
+        </div>
         <div className={styles.links}>
           <Link href={'/imprint'}>
             <a>

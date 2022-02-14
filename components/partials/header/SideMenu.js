@@ -4,6 +4,7 @@ import {useState} from "react";
 
 const siteList = [
   ['', 'Home'],
+  ['about', 'Über mich'],
   ['request', 'Anfragen'],
   ['privacy', 'Datenschutz'],
   ['imprint', 'Impressum'],
