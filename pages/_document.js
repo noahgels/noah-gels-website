@@ -28,7 +28,8 @@ export default class MyDocument extends Document {
           <meta name="image" content={seoConfig.image}/>
           <meta property="og:image" content={seoConfig.image}/>
           <meta property="og:description" content={seoConfig.description}/>
-          <meta name="twitter:title" content=""/>
+          <meta property="og:site_name" content="Noah Gels"/>
+          <meta property="og:locale" content="de_DE"/>
           <meta name="twitter:description" content={seoConfig.description}/>
           <meta name="twitter:image" content={seoConfig.image}/>
         </Head>

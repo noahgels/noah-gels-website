@@ -1,6 +1,7 @@
 import ActionButton from "../components/general/ActionButton";
 import Link from "next/link";
 import Head from 'next/head';
+import MyHead from "../components/general/MyHead";
 
 export default function About() {
 
@@ -14,7 +15,7 @@ export default function About() {
       flexDirection: 'column',
     }}>
       <Head>
-        <title>Über mich - Noah Gels</title>
+        <MyHead title={'Über mich - Noah Gels'}/>
       </Head>
       <article style={{textAlign: 'center'}}>
         <h1>

@@ -1,13 +1,12 @@
 import styles from '../styles/Imprint.module.css';
 import Footer from "../components/partials/footer/Footer";
 import Head from "next/head";
+import MyHead from "../components/general/MyHead";
 
 export default function Privacy() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Datenschutz - Noah Gels</title>
-      </Head>
+      <MyHead title={'Datenschutz - Noah Gels'}/>
       <main>
         <h1>Datenschutz­erklärung</h1>
         <h2>1. Datenschutz auf einen Blick</h2>

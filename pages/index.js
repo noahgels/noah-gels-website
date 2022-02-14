@@ -7,6 +7,7 @@ import Link from 'next/link';
 import {useEffect} from "react";
 import Footer from "../components/partials/footer/Footer";
 import ActionButton from "../components/general/ActionButton";
+import MyHead from "../components/general/MyHead";
 
 export default function Home() {
 
@@ -16,9 +17,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Websites und Apps - Noah Gels</title>
-      </Head>
+      <MyHead title={'Apps und Websites - Noah Gels'}/>
       <header className={styles.header}>
         <YouNeedAWebsite/>
       </header>

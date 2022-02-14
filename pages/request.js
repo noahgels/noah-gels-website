@@ -5,6 +5,7 @@ import {useState} from "react";
 import ActionButton from "../components/general/ActionButton";
 import {addRequest} from "../firebase/Database";
 import HoveringCard from '../components/general/HoveringCard';
+import MyHead from "../components/general/MyHead";
 
 
 export default function Request() {
@@ -26,9 +27,7 @@ export default function Request() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Anfragen - Noah Gels</title>
-      </Head>
+      <MyHead title={'Anfragen - Noah Gels'}/>
       <main className={styles.main}>
         <HoveringCard className={styles.card}>
           <h1 className={styles.title}>Anfragen</h1>
