@@ -13,15 +13,12 @@
     font-size: 1.2rem;
     font-weight: normal;
     color: var(--text-color);
-    margin: 2rem;
+    margin: 3rem;
+    line-height: 1.2;
 }
 
 .bigSize {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-bottom: 20rem;
 }
 
 .bigSize h2 {
@@ -37,5 +34,5 @@
 }
 
 .bigSize p {
-    padding: 0 2rem;
+    padding: 0;
 }

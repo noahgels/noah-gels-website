@@ -10,7 +10,7 @@ export default function Footer() {
       <hr className={styles.hr}/>
       <div className={styles.mainContent}>
         <div className={styles.line}>
-          Copyright © 2022 Noah Gels <img src={'/images/clean-logo.png'} className={styles.logo}/>
+          Copyright © 2022 Noah Gels <img src={'/images/clean-logo.png'} className={styles.logo} alt="NG Logo Small"/>
         </div>
         <div className={styles.links}>
           <Link href={'/imprint'}>
